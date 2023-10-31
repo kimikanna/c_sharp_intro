@@ -56,8 +56,8 @@ double DiffBetweenMinAndMax(double[] array)
     }
 
     double diff = max - min;
-    Console.WriteLine($"Максимальный элемент массива: {max}");
     Console.WriteLine($"Минимальный элемент массива: {min}");
+    Console.WriteLine($"Максимальный элемент массива: {max}");
     return diff;
 }
 
